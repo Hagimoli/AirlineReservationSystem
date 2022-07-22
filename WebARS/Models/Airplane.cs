@@ -8,5 +8,6 @@ namespace WebARS.Models
     //  MÁY BAY
     public class Airplane
     {
+        public int Id { get; set; }
     }
 }
