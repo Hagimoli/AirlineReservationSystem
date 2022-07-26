@@ -9,6 +9,7 @@ namespace WebARS.Models
     public class Airplane
     {
         public int Id { get; set; }
+        
         public int Capacity { get; set; }//Sức chứa
         public AirplaneType AirplaneType { get; set; }
         public virtual ICollection<Flight> Flights { get; set; }
