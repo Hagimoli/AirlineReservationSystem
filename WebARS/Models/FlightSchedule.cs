@@ -10,5 +10,10 @@ namespace WebARS.Models
     {
         public int Id { get; set; }
         public int FlightId { get; set; }
+        public string From { get; set; }
+        public string To { get; set; }
+        public DateTime Arrival { get; set; }
+        public DateTime Departure { get; set; }
+
     }
 }

@@ -8,5 +8,9 @@ namespace WebARS.Models
     //  LOẠI MÁY BAY
     public class AirplaneType
     {
+        public int Id { get; set; }
+        public string Identifier { get; set; }
+        public string Discription { get; set; }
+        public virtual ICollection<Airplane> Airplanes { get; set; }
     }
 }

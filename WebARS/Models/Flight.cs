@@ -9,6 +9,10 @@ namespace WebARS.Models
     public class Flight
     {
         public int Id { get; set; }
-        public int Id { get; set; }
+        public int AirplaneId { get; set; }
+        public string From { get; set; }
+        public string To { get; set; }
+        public DateTime Arrival { get; set; }
+        public DateTime Departure { get; set; }
     }
 }
