@@ -18,5 +18,7 @@ namespace WebARS.Models
         public DateTime Departure { get; set; }
         public Airplane Airplane { get; set; }
         public virtual ICollection<FlightSchedule> FlightSchedules { get; set; }
+        public virtual ICollection<Booking> Bookings { get; set; }
+        //public virtual ICollection<Booking> Bookings { get; set; }
     }
 }

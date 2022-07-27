@@ -6,12 +6,12 @@ using System.Web;
 namespace WebARS.Models
 {
     //  KHÁCH HÀNG
-    public class Customer
+    public class Passenger
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string DateBirth { get; set; }
+        public DateTime DateBirth { get; set; }
         public string CitizenId { get; set; }
         public string Email { get; set; }
         public string Phone1 { get; set; }
